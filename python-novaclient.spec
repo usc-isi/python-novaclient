@@ -32,10 +32,10 @@ BuildRequires:    python-nose
 #MK: needs to be checked
 #Requires:         python-argparse
 #Requires:         python-httplib2
-#Requires:         python-prettytable
+Requires:         python-prettytable
 Requires:         python-argparse >= 1.2.1 
 Requires:         python-httplib2 >= 0.4.0 
-Requires:         python-prettytable >= 0.6
+#Requires:         python-prettytable >= 0.6
 Requires:         python-simplejson >= 2.0.9
 Requires:         python-iso8601 >= 0.1.4 
 
