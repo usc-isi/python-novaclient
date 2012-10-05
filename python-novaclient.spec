@@ -12,7 +12,9 @@ Name:             python-novaclient
 #Name:             python-novaclient-%{os_release}
 Epoch:            1
 Version:          2012.1
-Release:	  essex
+#MK
+#Release:	  essex
+Release:	  folsom 
 #Release:        0.20120608.1750%{?dist}
 Summary:          Python API and CLI for OpenStack Nova
 
